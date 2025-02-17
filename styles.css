@@ -15,7 +15,13 @@ body {
 header {
     background: #333;
     color: white;
-    padding: 1rem;
+    padding: 2.5rem;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 300%;
+    /* text-size-adjust: ; */
 }
 
 .intro {
