@@ -41,7 +41,8 @@ function fetchData(query='') {
                     <td>${job.companyName}</td>
                     <td>${job.jobType}</td>
                     <td>${job.jobGeo}</td>
-                    <td><a href="${job.url}" target="_blank">Apply</a></td>
+                    <td>${job.pubDate.slice(0,10)}</td>
+                    <td><a href="${job.url}" class="preview" target="_blank">Apply</a></td>
                 `;
                 jobList.appendChild(row);
             });
