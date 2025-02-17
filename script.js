@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const jobList = document.getElementById("job-list");
+    const timestamp = document.getElementsByTagName("time")[0];
+    console.log(timestamp);
 
     fetch("https://jobicy.com/api/v2/remote-jobs?count=20&geo=usa&industry=engineering")
         .then(response => response.json())
