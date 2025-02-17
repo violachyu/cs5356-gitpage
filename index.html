@@ -22,7 +22,17 @@
     
     <main>
         <h2>Job Listings</h2>
-        <p>Last Updated: <time></time></p>
+        <div class='job-list-desc'>
+            <p>Last Updated: <time></time></p>
+            <div class="filter">
+                <p>Job Types Filter: </p>
+                <input type="checkbox" name='checkbox' id="backend" /> Backend
+                <input type="checkbox" name='checkbox' id="front end"/> Front End
+                <input type="checkbox" name='checkbox' id="ios"/> iOS
+                <input type="checkbox" name='checkbox' id="data"/> Data
+            </div>
+            <!-- <button id="refresh-btn"> Refresh</button> -->
+        </div>
         <table>
             <thead>
                 <tr>
