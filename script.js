@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 row.innerHTML = `
                     <td>${job.jobTitle}</td>
                     <td>${job.companyName}</td>
+                    <td>${job.jobType}</td>
                     <td>${job.jobGeo}</td>
                     <td><a href="${job.url}" target="_blank">Apply</a></td>
                 `;
