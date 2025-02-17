@@ -57,8 +57,17 @@ h1 {
     font-size: 250%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+
+/* Job Listing Table */
 main {
-    padding: 20px;
+    padding: 5em;
+    padding-top: 2em;
+}
+
+h2 {
+   font-size: 200%;
+   margin: 0.5rem;
 }
 
 table {
@@ -76,7 +85,7 @@ th {
     background: #f4f4f4;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 70%) {
     table {
         display: block;
         overflow-x: auto;
