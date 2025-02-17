@@ -19,16 +19,33 @@ header {
 }
 
 .intro {
-    padding: 20px;
-    display: flexbox;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: lightblue;
 }
 
 .intro img {
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
     border-radius: 10px;
 }
 
+.intro > div {
+    margin: 4em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.intro p {
+    margin: 0.5rem;
+    font-size: 100%;
+}
 main {
     padding: 20px;
 }
